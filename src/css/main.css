@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.todo-container {
+    background-image: url('https://images.pexels.com/photos/57553/pexels-photo-57553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+h1 {
+    margin-bottom: 15px
+}
+
+input {
+    background-color: rgb(197, 197, 197);
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.no-tasks {
+    margin-top: 20px;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+button {
+    outline: none;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid rgb(197, 197, 197);
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 7px 15px;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.task-btn {
+    background-color: none;
+    border: none;
+    margin-left: 20px;
+}
